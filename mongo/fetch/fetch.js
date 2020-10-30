@@ -1,6 +1,6 @@
 const express = require('express')
 const route = express.Router();
-const URI = "mongodb+srv://mahadev:Mtugaon@8575@cluster0.toewd.gcp.mongodb.net/sas?retryWrites=true&w=majority"
+const URI = 'localhost'//mongo uri
 const MongoClient = require('mongodb').MongoClient;
 const dbName = 'sas';
 var db;
